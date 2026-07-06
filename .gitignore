@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training/runtime outputs
+logs/
+outputs/
+sandbox/isaaclab_gpu/logs/
+sandbox/isaaclab_gpu/outputs/
+sandbox/**/__pycache__/
+
+# RL checkpoints and tensorboard/video artifacts
+*.pth
+*.pt
+*.ckpt
+*.zip
+events.out.tfevents.*
+*.mp4
+
+# Local editor / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
