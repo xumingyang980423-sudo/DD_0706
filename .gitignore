@@ -22,6 +22,12 @@ sandbox/**/__pycache__/
 *.zip
 events.out.tfevents.*
 *.mp4
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Runtime metrics dumps
+console_metrics.csv
+training/data/
 
 # Local editor / OS files
 .idea/
